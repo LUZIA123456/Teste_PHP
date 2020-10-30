@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.fonte{
+    color: white;
+}
+.rodape{
+    position: relative;
+    background-color: #201E1E;
+    height: 7%;
+    width: 100%;
+    float: left;
+}
+.facebook{
+    position: absolute;
+    right: 55px;
+    width: 2.2%;
+    top: 10px;
+}
+.facebook:hover{
+    -webkit-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+}
+.instagram{
+    position: absolute;
+    right: 20px;
+    width: 2.2%;
+    top: 10px;
+}
+.instagram:hover{
+    -webkit-transform: rotateZ(30deg);
+    -ms-transform: rotateZ(30deg);
+    transform: rotateZ(30deg);
+}
+.whatsapp{
+	width: 5%;
+}
+.rodape_txt{
+    position: absolute;
+    font-size: 15;
+    color: white;
+    right: 90px;
+}
+.titulo_form{
+    font-family: sans-serif;
+    font-size: 24;
+    text-align: center;
+    font-weight: normal;
+}
+.subtitulo_form{
+    font-family: sans-serif;
+    font-size: 22;
+    text-align: center;
+    font-weight: normal;
+}
+.fonte_form{
+    font-family: sans-serif;
+    font-size: 20;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+.formulario_cadastro{
+    min-height: 80vh;
+    position: relative;
+    float: center;
+    background-color: #ebebeb;
+}
+.botao{
+    padding: 10px;
+    display: block;
+    width: 100px;
+    height: 36px;
+    font-weight: bold;
+}
+.botao:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #201E1E;
+    color: yellow;
+    cursor: pointer;
+}
+.rodape_redes{
+    background-color: black;
+}
+.form {
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px 0 rgba(0.5,0.5,0.5,0.5);
+    width: 55%;
+    background-color: #ebebeb;
+}
+.form:hover{
+    border: 2px solid yellow;
+}
+.form:focus {
+    border: 2px solid yellow;
+}
